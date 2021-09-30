@@ -1,0 +1,29 @@
+.footer {
+background: #000;
+height: 555px;
+position: relative;
+}
+
+.cta-footer-button span:hover, .cta-footer-button span:hover img{
+	color: #F7B801;
+}
+
+.footer .logo {
+	margin-top: 100px;
+	position: absolute;
+	left: 80px;
+}
+
+.footer-nav {
+	position: absolute;
+	right: 40px;
+	bottom: 40px;
+}
+
+@media (max-width: 800px) {
+.footer .logo {
+	margin-top: 46px;
+	position: absolute;
+	left: 34px;
+}
+}

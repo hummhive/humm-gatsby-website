@@ -1,0 +1,107 @@
+.hive-section{
+  position: relative;
+  height: auto;
+  width: 100vw;
+  min-height: 1000px;
+}
+
+.HiveBg img {
+  position: absolute;
+width: 100%;
+z-index: -1;
+max-width: 1200px;
+}
+
+.hive-section-title {
+    text-align: center;
+  max-width: 800px;
+  font-family: "Eina01-Bold";
+  font-size: 34px;
+  color: #454545;
+  padding-top: 60px;
+  margin-left: 25%;
+}
+
+.hive-section-subtitle {
+    text-align: center;
+    color: #454545;
+  font-family: "Eina01-SemiBold";
+    max-width: 800px;
+  font-size: 24px;
+  padding-top: 42px;
+  margin-left: 25%;
+}
+
+@media (max-width: 1100px) {
+  .hive-section-title {
+    padding-top: 0;
+  }
+  .hive-section-title{
+    margin-right: 10%;
+  }
+  .hive-section-subtitle{
+    margin-right: 10%;
+    padding-top: 10px;
+  }
+
+  .hive-section{
+    min-height: 800px;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .hive-section-title {
+  	max-width: 85%;
+  	margin: auto;
+  	position: relative;
+  	top: -270px;
+  	font-size: 32px;
+  	padding-top: 60px;
+  }
+
+  .hive-section-subtitle {
+  	font-size: 20px;
+  	padding-top: 0;
+  	margin-left: 0;
+  	position: relative;
+  	top: -251px;
+  	max-width: 60%;
+  	margin: auto;
+  }
+
+  .hive-section{
+    min-height: 450px;
+    height: auto;
+  }
+
+  .HiveBg img {
+	width: 100%;
+}
+
+}
+
+
+@media (max-width: 480px) {
+
+  .hive-section-title {
+    font-size: 28px;
+    max-width: 75%;
+    padding-top: 0px;
+  }
+
+  .HiveBg img {
+	width: 100%;
+}
+
+.hive-section {
+	min-height: 450px;
+	height: auto;
+}
+
+  .hive-section-subtitle {
+  	font-size: 20px;
+    max-width: 50%;
+  }
+
+}
